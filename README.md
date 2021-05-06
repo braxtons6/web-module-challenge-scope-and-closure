@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+-closures give us the ability to put functions together. It's the ability to access a function from a parent level scope in a child level scope even after that function has been terminated.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,7 +65,8 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
+- the number should change
 c. What is the lexical scope of `newRoll`? 
 
 
